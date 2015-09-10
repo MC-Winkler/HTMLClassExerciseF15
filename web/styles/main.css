@@ -43,3 +43,31 @@ h6 {
 #little_goblin{
     text-indent: 5%;
 }
+
+A:link {
+    color: orange;
+    font-weight: bold;
+}
+
+A:visited {
+    color: orange;
+    font-weight: bold;
+}
+
+A:active {
+    color: green;
+}
+
+A:hover {
+    color: green;
+}
+
+li {
+    margin-top: .5em;
+}
+
+footer {
+    margin:auto;
+    text-align: center;
+    font-size: .7em;
+}
