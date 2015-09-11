@@ -2,12 +2,28 @@
 Copyright (c) 2015 Michael Winkler
 */
 
-main::first-letter {
-    font-size: 200%;
+html {
+    background-image: url("../images/bats.gif");
 }
 
 body {
     font-family: verdana, sans-serif;
+    background-color: white;
+    width: 800px;
+    border-style: solid;
+    border-color: black;
+    margin: 0 auto;
+    box-shadow: 0em .7em 1em .5em black;
+}
+
+main::first-letter {
+    font-size: 200%;
+}
+
+header {
+    border-bottom-style: solid;
+    border-bottom-color: black;
+    background-color: orange;
 }
 
 h1 {
@@ -35,9 +51,6 @@ h6 {
 
 #the_halloween_store{
     text-indent: 5%;
-    color: orange;
-    font-style: italic;
-    text-shadow: .2em .2em black;
 }
 
 #little_goblin{
@@ -67,7 +80,11 @@ li {
 }
 
 footer {
-    margin:auto;
+    margin: auto;
+    padding: 1.5em;
     text-align: center;
     font-size: .7em;
+    border-top-style: solid;
+    border-top-color: black;
+    background-color: orange;
 }
