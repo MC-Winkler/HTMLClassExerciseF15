@@ -14,29 +14,50 @@ body {
     border-color: black;
     margin: 0 auto;
     box-shadow: 0em .7em 1em .5em black;
+    
 }
 
 main::first-letter {
     font-size: 200%;
+    
+}
+
+main {
+    padding: 2%;
 }
 
 header {
     border-bottom-style: solid;
     border-bottom-color: black;
     background-color: orange;
+    background: -webkit-linear-gradient(left bottom, white, orange, black); 
+    background: -o-linear-gradient(top right, white, orange, black); 
+    background: -moz-linear-gradient(top right, white, orange, black); 
+    background: linear-gradient(to top right, white, orange , black); 
 }
 
 h1 {
-    font-size: 1.7em;
+    font-size: 2.5em;
+    font-weight: bold;
+    margin: 0;
+    padding-top: 1%;
 }
 h2 {
-    font-size: 1.5em;
+    font-size: 1.2em;
+    padding: 0;
+    margin-top: 0;   
+    margin-bottom: 2%;
+
 }
 h3 {
     font-size: 1.4em;
+    margin:0;
 }
 h4 {
     font-size: 1.3em;
+    padding:0;
+    margin: 2% 0 0 0;
+    
 }
 h5 {
     font-size: 1.2em;
@@ -45,8 +66,11 @@ h6 {
     font-size: 1.1em;
 }
 
+p {margin: 0;}
+
 #pumpkin_image {
     float:left;
+    margin: 1%;
 }
 
 #the_halloween_store{
@@ -81,10 +105,16 @@ li {
 
 footer {
     margin: auto;
+    margin-top: 2%;
     padding: 1.5em;
     text-align: center;
     font-size: .7em;
     border-top-style: solid;
     border-top-color: black;
     background-color: orange;
+    background: -webkit-linear-gradient(right top, white, orange, black); 
+    background: -o-linear-gradient(bottom right, white, orange, black); 
+    background: -moz-linear-gradient(bottom right, white, orange, black); 
+    background: linear-gradient(to bottom left, white, orange , black); 
+
 }
