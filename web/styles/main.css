@@ -28,7 +28,7 @@ main::first-letter {
 aside {
     float: left;
     width: 160px;
-    height: 500px;
+    height: 30em;
 }
 
 header {
@@ -71,7 +71,7 @@ h6 {
     font-size: 1.1em;
 }
 
-p {margin: 0;}
+p {margin: .5em 0 0;}
 
 #pumpkin_image {
     float:left;
@@ -84,6 +84,11 @@ p {margin: 0;}
 
 #little_goblin{
     text-indent: 5%;
+}
+
+#cat_image {
+    padding-right: 28em;
+    margin-top: .5em;
 }
 
 A:link {
