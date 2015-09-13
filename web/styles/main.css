@@ -17,13 +17,18 @@ body {
     
 }
 
+main {
+    padding: 2%;
+}
 main::first-letter {
     font-size: 200%;
     
 }
 
-main {
-    padding: 2%;
+aside {
+    float: left;
+    width: 160px;
+    height: 500px;
 }
 
 header {
@@ -116,5 +121,5 @@ footer {
     background: -o-linear-gradient(bottom right, white, orange, black); 
     background: -moz-linear-gradient(bottom right, white, orange, black); 
     background: linear-gradient(to bottom left, white, orange , black); 
-
+    clear:both;
 }
