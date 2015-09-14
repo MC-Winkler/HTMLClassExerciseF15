@@ -92,12 +92,12 @@ p {margin: .5em 0 0;}
 }
 
 A:link {
-    color: orange;
+    color: black;
     font-weight: bold;
 }
 
 A:visited {
-    color: orange;
+    color: black;
     font-weight: bold;
 }
 
@@ -109,8 +109,20 @@ A:hover {
     color: green;
 }
 
-li {
-    margin-top: .5em;
+ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+li a {
+    display: block;
+    width: 8em;
+    line-height: 2em;
+    font-size: 1em;
+    text-decoration: none;
+    background-color: orange;
+    padding-left: 1em;
 }
 
 footer {
