@@ -3,140 +3,220 @@ Copyright (c) 2015 Michael Winkler
 */
 
 html {
-    background-image: url("../images/bats.gif");
+  background-image: url("../images/bats.gif");
 }
 
 body {
-    font-family: verdana, sans-serif;
-    background-color: white;
-    width: 800px;
-    border-style: solid;
-    border-color: black;
-    margin: 0 auto;
-    box-shadow: 0em .7em 1em .5em black;
+  font-family: verdana, sans-serif;
+  background-color: white;
+  width: 800px;
+  border-style: solid;
+  border-color: black;
+  margin: 0 auto;
+  box-shadow: 0em .7em 1em .5em black;
     
 }
 
 main {
-    padding: 2%;
+  padding: 2%;
 }
 main::first-letter {
-    font-size: 200%;
+  font-size: 200%;
     
 }
 
 aside {
-    float: left;
-    width: 160px;
-    height: 30em;
+  float: left;
+  width: 160px;
+  height: 30em;
 }
 
 header {
-    border-bottom-style: solid;
-    border-bottom-color: black;
-    background-color: orange;
-    background: -webkit-linear-gradient(left bottom, white, orange, black); 
-    background: -o-linear-gradient(top right, white, orange, black); 
-    background: -moz-linear-gradient(top right, white, orange, black); 
-    background: linear-gradient(to top right, white, orange , black); 
+  width: 100%;
+  border-bottom-style: solid;
+  border-bottom-color: black;
+  background-color: orange;
+  background: -webkit-linear-gradient(left bottom, white, orange, black); 
+  background: -o-linear-gradient(top right, white, orange, black); 
+  background: -moz-linear-gradient(top right, white, orange, black); 
+  background: linear-gradient(to top right, white, orange , black); 
 }
 
 h1 {
-    font-size: 2.5em;
-    font-weight: bold;
-    margin: 0;
-    padding-top: 1%;
+  font-size: 2.5em;
+  font-weight: bold;
+  margin: 0;
+  padding-top: 1%;
 }
+
 h2 {
-    font-size: 1.2em;
-    padding: 0;
-    margin-top: 0;   
-    margin-bottom: 2%;
+  font-size: 1.2em;
+  padding: 0;
+  margin-top: 0;   
+  margin-bottom: 2%;
 
 }
+
 h3 {
-    font-size: 1.4em;
-    margin:0;
+  font-size: 1.4em;
+  margin:0;
 }
+
 h4 {
-    font-size: 1.3em;
-    padding:0;
-    margin: 2% 0 0 0;
+  font-size: 1.3em;
+  padding:0;
+  margin: 2% 0 0 0;
     
 }
+
 h5 {
-    font-size: 1.2em;
-}
-h6 {
-    font-size: 1.1em;
+  font-size: 1.2em;
 }
 
-p {margin: .5em 0 0;}
+h6 {
+  font-size: 1.1em;
+}
+
+p {
+  margin: .5em 0 0;
+}
 
 #pumpkin_image {
-    float:left;
-    margin: 1%;
+  float:left;
+  margin: 1%;
 }
 
 #the_halloween_store{
-    text-indent: 5%;
+  text-indent: 5%;
 }
 
 #little_goblin{
-    text-indent: 5%;
+  text-indent: 5%;
 }
 
 #cat_image {
-    padding-right: 28em;
-    margin-top: .5em;
+  padding-right: 28em;
+  margin-top: .5em;
 }
 
-A:link {
+li.horiz a {
+    color: white;
+    display: block;
+    line-height: 2em;
+}
+
+li.horiz:focus {
+    background-color: gray;
     color: black;
-    font-weight: bold;
 }
 
-A:visited {
-    color: black;
-    font-weight: bold;
+li.sidebar a {
+  display: block;
+  width: 8em;
+  line-height: 2em;
+  font-size: 1em;
+  text-decoration: none;
+  background-color: orange;
+  padding-left: 1em;
+  margin-bottom: .3em;
+  border-color: black;
+  border-style: solid;
 }
 
-A:active {
+li.sidebar A:link {
+  color: black;
+  font-weight: bold;
+}
+
+li.sidebar A:visited {
+  color: black;
+}
+
+li.sidebar A:active {
+  color: green;
+}
+
+li.sidebar A:hover {
     color: green;
 }
 
-A:hover {
-    color: green;
+li.horiz A:link {
+  color: white;
+  font-weight: bold;
+}
+
+li.horiz A:visited {
+  color: white;
+}
+
+li.horiz A:active {
+  color: black;
+  background-color: grey;
+}
+
+li.horiz A:hover {
+  color: black;
+  background-color: grey;
 }
 
 ul, li {
-    margin: 0;
-    padding: 0;
-    list-style: none;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
-li a {
-    display: block;
-    width: 8em;
-    line-height: 2em;
-    font-size: 1em;
-    text-decoration: none;
-    background-color: orange;
-    padding-left: 1em;
+ul.horiz, li.horiz {
+  float: left;
+  text-align: center;
 }
+
+ul.horiz {
+  background-color: black;
+  width: 100%
+}
+
+li.horiz {
+  box-sizing: border-box;
+  width: 20%;
+  padding: .6em 1.5em;
+  font-weight: bold;
+}
+
+
 
 footer {
-    margin: auto;
-    margin-top: 2%;
-    padding: 1.5em;
-    text-align: center;
-    font-size: .7em;
-    border-top-style: solid;
-    border-top-color: black;
-    background-color: orange;
-    background: -webkit-linear-gradient(right top, white, orange, black); 
-    background: -o-linear-gradient(bottom right, white, orange, black); 
-    background: -moz-linear-gradient(bottom right, white, orange, black); 
-    background: linear-gradient(to bottom left, white, orange , black); 
-    clear:both;
+  margin: auto;
+  margin-top: 2%;
+  padding: 1.5em;
+  text-align: center;
+  font-size: .7em;
+  border-top-style: solid;
+  border-top-color: black;
+  background-color: orange;
+  background: -webkit-linear-gradient(right top, white, orange, black); 
+  background: -o-linear-gradient(bottom right, white, orange, black); 
+  background: -moz-linear-gradient(bottom right, white, orange, black); 
+  background: linear-gradient(to bottom left, white, orange , black); 
+  clear:both;
+}
+
+.cf {
+    width: 100%;
+}
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
 }
