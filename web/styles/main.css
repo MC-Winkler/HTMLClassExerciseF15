@@ -20,14 +20,16 @@ body {
 main {
   padding: 2%;
 }
+
 main::first-letter {
   font-size: 200%;
-    
 }
 
+
+
 a {
-    color: orange;
-    font-weight: bold;
+  color: orange;
+  font-weight: bold;  
 }
 
 ul, li {
@@ -52,18 +54,35 @@ li.sidebar a {
 }
 
 nav {
-    width: 100%;
+  width: 100%;  background-color: black;
+  margin-bottom: 3em;
 }
-li.horiz {
-    float:left;
-    width: 20%;
-    text-align: center;    
-    background-color: black;
 
+ul.horiz {
+  line-height: 2em;
+  width: 100%;
+}
+
+li.horiz {
+  background-color: black;
+  float:left;
+  text-align: center;    
+  width: 20%;
 }
 
 li.horiz a {
-    color: white;
+  color: white;
+  display: block;
+  text-decoration: none;
+}
+
+li.horiz a:hover{
+  background-color:grey;
+  color:black;
+}
+
+li.horiz .current {
+  color: orange;
 }
 
 aside {
@@ -155,3 +174,4 @@ footer {
   background: linear-gradient(to bottom left, white, orange , black); 
   clear:both;
 }
+
