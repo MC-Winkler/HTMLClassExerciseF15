@@ -1,0 +1,177 @@
+/*
+Copyright (c) 2015 Michael Winkler
+*/
+
+html {
+  background-image: url("../images/bats.gif");
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: verdana, sans-serif;
+  background-color: white;
+  width: 800px;
+  height: 800px;
+  border-style: solid;
+  border-color: black;
+  margin: 0 auto;
+  box-shadow: 0em .7em 1em .5em black;    
+}
+
+main {
+  padding: 2%;
+  height: 100%;
+}
+
+ul, li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  width: 100%;  background-color: black;
+  margin-bottom: 3em;
+}
+
+#navbar ul {
+  line-height: 2em;
+  width: 100%;
+}
+
+#navbar li {
+  background-color: black;
+  float:left;
+  text-align: center;    
+  width: 20%;
+}
+
+#navbar a {
+  color: white;
+  display: block;
+  text-decoration: none;
+}
+
+#navbar a:hover{
+  background-color:grey;
+  color:black;
+}
+
+#left_sidebar {
+  float: left;
+  height: 30em;
+  width: 160px;
+  margin-right: 1%;
+}
+
+#left_sidebar a {    
+  background-color: orange;
+  border-style: solid;
+  border-color: black;
+  color: black;
+  display: block;
+  font-size: 1em;
+  font-weight: bold;
+  height: 1.5em;
+  margin: .3em;
+  padding: .2em 0em .2em .4em;
+  text-decoration: none;  
+  width:8em;
+}
+
+#right_sidebar {
+  margin: 0;
+  padding: 1em;
+  float:right;
+  height: 100%;
+  width: 180px;
+  background-color: #F5DEB3;
+}
+
+#right_sidebar a {
+    text-decoration: underline;
+}
+
+#right_sidebar a:hover, right_sidebar a:focus{
+    color:green;
+}
+
+#suggestions {
+    padding-top: 1em;
+    padding-left: 1em;
+}
+
+header {
+  width: 100%;
+  border-bottom-style: solid;
+  border-bottom-color: black;
+  background-color: orange;
+  background: -webkit-linear-gradient(left bottom, white, orange, black); 
+  background: -o-linear-gradient(top right, white, orange, black); 
+  background: -moz-linear-gradient(top right, white, orange, black); 
+  background: linear-gradient(to top right, white, orange , black); 
+}
+
+h1 {
+  font-size: 2.5em;
+  font-weight: bold;
+  margin: 0;
+  padding-top: 1%;
+}
+
+h2 {
+  font-size: 1.2em;
+  padding: 0;
+  margin-top: 0;   
+  margin-bottom: 2%;
+
+}
+
+h3 {
+  font-size: 1.4em;
+  margin:0;
+}
+
+h4 {
+  font-size: 1em;
+}
+
+p {
+  margin: .5em 0 0;
+}
+
+#pumpkin_image {
+  float:left;
+  margin: 1%;
+}
+
+#the_halloween_store{
+  text-indent: 5%;
+}
+
+#little_goblin{
+  text-indent: 5%;
+}
+
+#cat_image {
+  margin: 2% 5% 0% 0%;
+  float:left;
+}
+
+footer {
+  margin: 0;
+  padding: 1.5em;
+  text-align: center;
+  font-size: .7em;
+  border-top-style: solid;
+  border-top-color: black;
+  background-color: orange;
+  background: -webkit-linear-gradient(right top, white, orange, black); 
+  background: -o-linear-gradient(bottom right, white, orange, black); 
+  background: -moz-linear-gradient(bottom right, white, orange, black); 
+  background: linear-gradient(to bottom left, white, orange , black); 
+  clear:both;
+}
+
