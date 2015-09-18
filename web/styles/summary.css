@@ -13,17 +13,15 @@ body {
   font-family: verdana, sans-serif;
   background-color: white;
   width: 800px;
-  height: 800px;
   border-style: solid;
   border-color: black;
   margin: 0 auto;
-  box-shadow: 0em .7em 1em .5em black;    
+  box-shadow: 0em .7em 1em .5em black;  
 }
 
 main {
   padding: 2%;
   height: 100%;
-  background-color: blue;
 }
 
 ul, li {
@@ -35,6 +33,10 @@ ul, li {
 nav {
   width: 100%;  background-color: black;
   margin-bottom: 3em;
+}
+
+a {
+    color: black;
 }
 
 #navbar ul {
@@ -86,28 +88,6 @@ nav {
   width:8em;
 }
 
-#right_sidebar {
-  margin: 0;
-  padding: 1em;
-  float:right;
-  height: 100%;
-  width: 180px;
-  background-color: #F5DEB3;
-}
-
-#right_sidebar a {
-    text-decoration: underline;
-}
-
-#right_sidebar a:hover, right_sidebar a:focus{
-    color:green;
-}
-
-#suggestions {
-    padding-top: 1em;
-    padding-left: 1em;
-}
-
 header {
   width: 100%;
   border-bottom-style: solid;
@@ -134,11 +114,6 @@ h2 {
 
 }
 
-h3 {
-  font-size: 1.4em;
-  margin:0;
-}
-
 h4 {
   font-size: 1em;
 }
@@ -160,11 +135,6 @@ p {
   text-indent: 5%;
 }
 
-#cat_image {
-  margin: 2% 5% 0% 0%;
-  float:left;
-}
-
 footer {
   margin: 0;
   padding: 1.5em;
@@ -180,3 +150,35 @@ footer {
   clear:both;
 }
 
+
+.colHead {
+    text-align: left;
+}
+
+
+.productType {
+    vertical-align: top;
+    text-align: left;
+}
+
+#product_list {
+    text-align: center;
+}
+
+tr {
+    height: 1.6em;
+}
+
+.left {
+  width: 10em;
+}
+
+.middle{
+    width:13em;
+}
+
+.right {
+    background-color: #F5DEB3;
+    text-align: right;
+    width: 6em;
+}
