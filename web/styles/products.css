@@ -13,17 +13,15 @@ body {
   font-family: verdana, sans-serif;
   background-color: white;
   width: 800px;
-  height: 800px;
   border-style: solid;
   border-color: black;
   margin: 0 auto;
-  box-shadow: 0em .7em 1em .5em black;    
+  box-shadow: 0em .7em 1em .5em black;  
 }
 
 main {
   padding: 2%;
   height: 100%;
-  background-color: blue;
 }
 
 ul, li {
@@ -33,7 +31,8 @@ ul, li {
 }
 
 nav {
-  width: 100%;  background-color: black;
+  width: 100%;  
+  background-color: black;
   margin-bottom: 3em;
 }
 
@@ -97,6 +96,7 @@ nav {
 
 #right_sidebar a {
     text-decoration: underline;
+    color: black;
 }
 
 #right_sidebar a:hover, right_sidebar a:focus{
