@@ -86,7 +86,7 @@ nav {
 }
 
 #right_sidebar {
-  margin: 0;
+  margin: -2% -2% 0 0;
   padding: 1em;
   float:right;
   height: 100%;
