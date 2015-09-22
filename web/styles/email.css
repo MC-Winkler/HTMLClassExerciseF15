@@ -4,6 +4,7 @@ Copyright (c) 2015 Michael Winkler
 
 html {
   background-image: url("../images/bats.gif");
+  height: 100%;
 }
 
 body {
@@ -18,14 +19,12 @@ body {
 }
 
 main {
-  padding: 2%;
+  height: 100%;
 }
 
 main::first-letter {
   font-size: 200%;
 }
-
-
 
 a {
   color: orange;
@@ -87,7 +86,7 @@ li.horiz .current {
 
 aside {
   float: left;
-  height: 30em;
+  height: 100%;
   width: 160px;
 }
 
