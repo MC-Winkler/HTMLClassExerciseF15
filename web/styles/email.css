@@ -156,21 +156,22 @@ footer {
     text-align: right;
     width:7em;
     background-color:red;
+    float: left;
 }
 
 section{
     width: 100%;
 }
 
-input {
-    margin: .5%;
-}
-
-#inputs{
+#inputs_div{
     width: 50%;
     background-color:blue;
+    float:left;    
+
 }
 
 #subscribe {
     background-color: orange;
+    display:block;
+    display:cen
 }
