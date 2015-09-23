@@ -21,7 +21,6 @@ body {
 main {
   height: 100%;
   position: relative;
-  padding: 0 0 0 160px;
 }
 
 a {
@@ -83,9 +82,8 @@ li.horiz .current {
 }
 
 aside {
-  position: absolute;
-  left: 0;
-  top: 0;
+  float:left;
+  margin: 0 .5em .5em .5em;
 }
 
 header {
@@ -152,25 +150,10 @@ footer {
   clear:both;
 }
 
-#labels {
-    text-align: right;
-    width:7em;
-    background-color:red;
-}
+
 
 section{
-    width: 100%;
+    margin:2%;
+    width: 95%;
 }
 
-input {
-    margin: .5%;
-}
-
-#inputs{
-    width: 50%;
-    background-color:blue;
-}
-
-#subscribe {
-    background-color: orange;
-}
