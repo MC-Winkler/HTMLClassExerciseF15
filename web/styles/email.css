@@ -20,8 +20,7 @@ body {
 
 main {
   height: 100%;
-  position: relative;
-  padding: 0 0 0 160px;
+  padding: 0 0 0 0px;
 }
 
 a {
@@ -83,9 +82,8 @@ li.horiz .current {
 }
 
 aside {
-  position: absolute;
-  left: 0;
-  top: 0;
+ float:left;
+ margin:.5em 1em 1em;
 }
 
 header {
@@ -116,7 +114,7 @@ h2 {
 
 h3 {
   font-size: 1.4em;
-  margin:.5%;
+  margin:1em 1em .5em;
 }
 
 p {
@@ -153,25 +151,28 @@ footer {
 }
 
 #labels {
-    text-align: right;
-    width:7em;
-    background-color:red;
-    float: left;
-}
+  text-align: right;
+  width:7em;
+  float: left;
+  line-height: 1.9;
+}  
+
 
 section{
-    width: 100%;
+  width: 100%;
 }
 
 #inputs_div{
-    width: 50%;
-    background-color:blue;
-    float:left;    
-
+  width: 50%;
+  float:left;    
 }
 
 #subscribe {
-    background-color: orange;
-    display:block;
-    display:cen
+  background-color: orange;
+  display:block;
+  display:cen
+}
+
+input{
+  margin: .2em; 
 }
