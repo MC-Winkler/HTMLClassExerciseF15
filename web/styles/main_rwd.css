@@ -4,13 +4,13 @@ Copyright (c) 2015 Michael Winkler
 
 html {
   background-image: url("../images/bats.gif");
-  height: 100%;
 }
 
 body {
   font-family: verdana, sans-serif;
   background-color: white;
-  width: 800px;
+  width: 95%;
+  max-width: 960px;
   border-style: solid;
   border-color: black;
   margin: 0 auto;
@@ -19,8 +19,13 @@ body {
 }
 
 main {
-  height: 100%;
-  padding: 0 0 0 0px;
+  padding: 2%;
+  display: flex;
+  flex-orientation:horizontal
+}
+
+main::first-letter {
+  font-size: 200%;
 }
 
 a {
@@ -81,11 +86,6 @@ li.horiz .current {
   color: orange;
 }
 
-aside {
- float:left;
- margin:.5em 1em 1em;
-}
-
 header {
   width: 100%;
   border-bottom-style: solid;
@@ -114,8 +114,9 @@ h2 {
 
 h3 {
   font-size: 1.4em;
-  margin:1em 1em .5em;
+  margin:0;
 }
+
 
 p {
   margin: .5em 0 0;
@@ -134,8 +135,13 @@ p {
   text-indent: 5%;
 }
 
+#cat_image {
+  margin-top: .5em;
+}
+
 footer {
-  margin: 0 auto;
+  margin: auto;
+  margin-top: 2%;
   padding: 1.5em;
   text-align: center;
   font-size: .7em;
@@ -147,31 +153,4 @@ footer {
   background: -moz-linear-gradient(bottom right, white, orange, black); 
   background: linear-gradient(to bottom left, white, orange , black); 
   clear:both;
-}
-
-#labels {
-  text-align: right;
-  width:7em;
-  float: left;
-  line-height: 1.9;
-}  
-
-
-section{
-  width: 100%;
-}
-
-#inputs_div{
-  width: 50%;
-  float:left;    
-}
-
-#subscribe {
-  background-color: orange;
-  display:block;
-  margin-bottom: 1em;
-}
-
-input{
-  margin: .2em; 
 }
