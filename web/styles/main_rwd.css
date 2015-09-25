@@ -19,7 +19,6 @@ body {
 
 main {
   display: flex;
-  flex-orientation:horizontal;
   padding: 2%;
 }
 
