@@ -8,14 +8,13 @@ html {
 }
 
 body {
-  font-family: verdana, sans-serif;
   background-color: white;
-  width: 800px;
   border-style: solid;
   border-color: black;
-  margin: 0 auto;
   box-shadow: 0em .7em 1em .5em black;
-    
+  font-family: verdana, sans-serif;
+  margin: 0 auto;
+  width: 800px;
 }
 
 main {
@@ -49,9 +48,9 @@ li.sidebar a {
 }
 
 nav {
-  width: 100%;  
   background-color: black;
   margin-bottom: 3em;
+  width: 100%;  
 }
 
 ul.horiz {
@@ -87,14 +86,14 @@ aside {
 }
 
 header {
-  width: 100%;
-  border-bottom-style: solid;
-  border-bottom-color: black;
-  background-color: orange;
   background: -webkit-linear-gradient(left bottom, white, orange, black); 
   background: -o-linear-gradient(top right, white, orange, black); 
   background: -moz-linear-gradient(top right, white, orange, black); 
   background: linear-gradient(to top right, white, orange , black); 
+  background-color: orange;
+  border-bottom-style: solid;
+  border-bottom-color: black;
+  width: 100%;
 }
 
 h1 {
@@ -106,10 +105,9 @@ h1 {
 
 h2 {
   font-size: 1.2em;
-  padding: 0;
   margin-top: 0;   
   margin-bottom: 2%;
-
+  padding: 0;
 }
 
 h3 {
@@ -135,25 +133,25 @@ p {
 }
 
 footer {
-  margin: 0 auto;
-  padding: 1.5em;
-  text-align: center;
-  font-size: .7em;
-  border-top-style: solid;
-  border-top-color: black;
-  background-color: orange;
   background: -webkit-linear-gradient(right top, white, orange, black); 
   background: -o-linear-gradient(bottom right, white, orange, black); 
   background: -moz-linear-gradient(bottom right, white, orange, black); 
   background: linear-gradient(to bottom left, white, orange , black); 
+  background-color: orange;
+  border-top-style: solid;
+  border-top-color: black;  
   clear:both;
+  font-size: .7em;
+  margin: 0 auto;
+  padding: 1.5em;
+  text-align: center;
 }
 
 #labels {
-  text-align: right;
-  width:7em;
   float: left;
   line-height: 1.9;
+  text-align: right;
+  width:7em;
 }  
 
 
@@ -162,8 +160,8 @@ section{
 }
 
 #inputs_div{
-  width: 50%;
   float:left;    
+  width: 50%;
 }
 
 #subscribe {

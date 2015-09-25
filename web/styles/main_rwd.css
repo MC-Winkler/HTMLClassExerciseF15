@@ -7,20 +7,20 @@ html {
 }
 
 body {
-  font-family: verdana, sans-serif;
   background-color: white;
-  width: 95%;
-  max-width: 960px;
-  border-style: solid;
   border-color: black;
-  margin: 0 auto;
+  border-style: solid;
   box-shadow: 0em .7em 1em .5em black;
+  font-family: verdana, sans-serif;
+  margin: 0 auto;
+  max-width: 960px;
+  width: 95%;
 }
 
 main {
-  padding: 2%;
   display: flex;
-  flex-orientation:horizontal
+  flex-orientation:horizontal;
+  padding: 2%;
 }
 
 main::first-letter {
@@ -53,8 +53,8 @@ li.sidebar a {
 }
 
 nav {
-  width: 100%;  
   background-color: black;
+  width: 100%;  
 }
 
 ul.horiz {
@@ -89,14 +89,14 @@ headings{
 }
 
 header {
-  width: 100%;
-  border-bottom-style: solid;
-  border-bottom-color: black;
-  background-color: orange;
   background: -webkit-linear-gradient(left bottom, white, orange, black); 
   background: -o-linear-gradient(top right, white, orange, black); 
   background: -moz-linear-gradient(top right, white, orange, black); 
-  background: linear-gradient(to top right, white, orange , black); 
+  background: linear-gradient(to top right, white, orange , black);
+  background-color: orange;
+  border-bottom-style: solid;
+  border-bottom-color: black;
+  width: 100%;
 }
 
 h1 {
@@ -108,10 +108,9 @@ h1 {
 
 h2 {
   font-size: 1.2em;
-  padding: 0;
   margin-top: 0;   
   margin-bottom: 2%;
-
+  padding: 0;
 }
 
 h3 {
@@ -131,8 +130,8 @@ p {
 }
 
 #the_halloween_store{
-  text-indent: 5%;
   display:block;
+  text-indent: 5%;
 }
 
 #little_goblin{
@@ -153,26 +152,27 @@ p {
 }
 
 footer {
-  margin: auto;
-  margin-top: 2%;
-  padding: 1.5em;
-  text-align: center;
-  font-size: .7em;
-  border-top-style: solid;
-  border-top-color: black;
-  background-color: orange;
+  
   background: -webkit-linear-gradient(right top, white, orange, black); 
   background: -o-linear-gradient(bottom right, white, orange, black); 
   background: -moz-linear-gradient(bottom right, white, orange, black); 
   background: linear-gradient(to bottom left, white, orange , black); 
-  clear:both;
+  background-color: orange;
+  border-top-style: solid;
+  border-top-color: black;
+  clear:both;  
+  font-size: .7em;
+  margin: auto;
+  margin-top: 2%;
+  padding: 1.5em;
+  text-align: center;
 }
 
 #hamburger-nav {
-  display:none;
   color:white;
-  text-align: right;
+  display:none;
   font-size: 150%;
+  text-align: right;
 }
 @media screen and (max-width: 800px){
   html {

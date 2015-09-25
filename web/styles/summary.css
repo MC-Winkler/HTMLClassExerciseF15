@@ -10,18 +10,18 @@ html {
 }
 
 body {
-  font-family: verdana, sans-serif;
   background-color: white;
-  width: 800px;
-  border-style: solid;
   border-color: black;
-  margin: 0 auto;
+  border-style: solid;
   box-shadow: 0em .7em 1em .5em black;  
+  font-family: verdana, sans-serif;
+  margin: 0 auto;
+  width: 800px;
 }
 
 main {
-  padding: 2%;
   height: 100%;
+  padding: 2%;
 }
 
 ul, li {
@@ -31,13 +31,13 @@ ul, li {
 }
 
 nav {
-  width: 100%;  
   background-color: black;
-  margin-bottom: 3em;
+  margin-bottom: 3em;  
+  width: 100%;  
 }
 
 a {
-    color: black;
+  color: black;
 }
 
 #navbar ul {
@@ -64,14 +64,14 @@ a {
 }
 
 #navbar .current {
-    color:orange;
+  color:orange;
 }
 
 #left_sidebar {
   float: left;
   height: 100%;
+  margin-right: 1%; 
   width: 160px;
-  margin-right: 1%;
 }
 
 #left_sidebar a {    
@@ -90,14 +90,13 @@ a {
 }
 
 header {
-  width: 100%;
-  border-bottom-style: solid;
-  border-bottom-color: black;
-  background-color: orange;
   background: -webkit-linear-gradient(left bottom, white, orange, black); 
   background: -o-linear-gradient(top right, white, orange, black); 
   background: -moz-linear-gradient(top right, white, orange, black); 
-  background: linear-gradient(to top right, white, orange , black); 
+  background: linear-gradient(to top right, white, orange , black); border-bottom-style: solid;
+  background-color: orange;
+  border-bottom-color: black;
+  width: 100%;
 }
 
 h1 {
@@ -109,10 +108,9 @@ h1 {
 
 h2 {
   font-size: 1.2em;
-  padding: 0;
   margin-top: 0;   
   margin-bottom: 2%;
-
+  padding: 0;
 }
 
 h4 {
@@ -137,37 +135,36 @@ p {
 }
 
 footer {
-  margin: 0;
-  padding: 1.5em;
-  text-align: center;
-  font-size: .7em;
-  border-top-style: solid;
-  border-top-color: black;
-  background-color: orange;
   background: -webkit-linear-gradient(right top, white, orange, black); 
   background: -o-linear-gradient(bottom right, white, orange, black); 
   background: -moz-linear-gradient(bottom right, white, orange, black); 
-  background: linear-gradient(to bottom left, white, orange , black); 
-  clear:both;
+  background: linear-gradient(to bottom left, white, orange , black); margin: 0;
+  border-top-style: solid;
+  border-top-color: black;
+  background-color: orange;
+  clear:both;  
+  font-size: .7em;
+  padding: 1.5em;
+  text-align: center;
 }
 
 
 .colHead {
-    text-align: left;
+  text-align: left;
 }
 
 
 .productType {
-    vertical-align: top;
-    text-align: left;
+  text-align: left;
+  vertical-align: top;
 }
 
 #product_list {
-    text-align: center;
+  text-align: center;
 }
 
 tr {
-    height: 1.6em;
+  height: 1.6em;
 }
 
 .left {
@@ -175,15 +172,15 @@ tr {
 }
 
 .middle{
-    width:13em;
+  width:13em;
 }
 
 .right {
-    background-color: #F5DEB3;
-    text-align: right;
-    width: 6em;
+  background-color: #F5DEB3;
+  text-align: right;
+  width: 6em;
 }
 
 section{
-    width: 83%;
+  width: 83%;
 }

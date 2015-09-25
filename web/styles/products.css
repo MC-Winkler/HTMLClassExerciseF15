@@ -10,18 +10,18 @@ html {
 }
 
 body {
-  font-family: verdana, sans-serif;
   background-color: white;
-  width: 800px;
   border-style: solid;
   border-color: black;
-  margin: 0 auto;
   box-shadow: 0em .7em 1em .5em black;  
+  font-family: verdana, sans-serif;
+  margin: 0 auto;
+  width: 800px;
 }
 
 main {
-  padding: 2%;
   height: 100%;
+  padding: 2%;
 }
 
 ul, li {
@@ -31,9 +31,9 @@ ul, li {
 }
 
 nav {
-  width: 100%;  
   background-color: black;
   margin-bottom: 3em;
+  width: 100%;  
 }
 
 #navbar ul {
@@ -60,14 +60,14 @@ nav {
 }
 
 #navbar .current {
-    color:orange;
+  color:orange;
 }
 
 #left_sidebar {
   float: left;
   height: 100%;
-  width: 160px;
   margin-right: 1%;
+  width: 160px;
 }
 
 #left_sidebar a {    
@@ -86,37 +86,37 @@ nav {
 }
 
 #right_sidebar {
-  margin: -2% -2% 0 0;
-  padding: 1em;
+  background-color: #F5DEB3;
   float:right;
   height: 100%;
+  margin: -2% -2% 0 0;
+  padding: 1em;
   width: 180px;
-  background-color: #F5DEB3;
 }
 
 #right_sidebar a {
-    text-decoration: underline;
-    color: black;
+  color: black;
+  text-decoration: underline;
 }
 
 #right_sidebar a:hover, right_sidebar a:focus{
-    color:green;
+  color:green;
 }
 
 #suggestions {
-    padding-top: 1em;
-    padding-left: 1em;
+  padding-left: 1em;
+  padding-top: 1em;
 }
 
 header {
-  width: 100%;
-  border-bottom-style: solid;
-  border-bottom-color: black;
-  background-color: orange;
   background: -webkit-linear-gradient(left bottom, white, orange, black); 
   background: -o-linear-gradient(top right, white, orange, black); 
   background: -moz-linear-gradient(top right, white, orange, black); 
   background: linear-gradient(to top right, white, orange , black); 
+  background-color: orange;
+  border-bottom-style: solid;
+  border-bottom-color: black;  
+  width: 100%;
 }
 
 h1 {
@@ -128,10 +128,9 @@ h1 {
 
 h2 {
   font-size: 1.2em;
-  padding: 0;
   margin-top: 0;   
   margin-bottom: 2%;
-
+  padding: 0;
 }
 
 h3 {
@@ -161,22 +160,21 @@ p {
 }
 
 #cat_image {
-  margin: 2% 5% 0% 0%;
   float:left;
+  margin: 2% 5% 0% 0%;
 }
 
 footer {
-  margin: 0;
-  padding: 1.5em;
-  text-align: center;
-  font-size: .7em;
-  border-top-style: solid;
-  border-top-color: black;
-  background-color: orange;
   background: -webkit-linear-gradient(right top, white, orange, black); 
   background: -o-linear-gradient(bottom right, white, orange, black); 
   background: -moz-linear-gradient(bottom right, white, orange, black); 
-  background: linear-gradient(to bottom left, white, orange , black); 
+  background: linear-gradient(to bottom left, white, orange , black);   border-top-style: solid;
+  background-color: orange;
+  border-top-color: black;
   clear:both;
+  font-size: .7em;
+  margin: 0;
+  padding: 1.5em;
+  text-align: center;
 }
 
