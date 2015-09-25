@@ -5,6 +5,7 @@ Copyright (c) 2015 Michael Winkler
 <html lang="en">
   <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Halloween Store</title>
     <link href="styles/normalize.css" rel="stylesheet">
     <link href="styles/main_rwd.css" rel="stylesheet" >        
@@ -12,11 +13,11 @@ Copyright (c) 2015 Michael Winkler
   <body>
     <header>
       <img src ="images/pumpkin.gif" alt="Halloween Pumpkin" id="pumpkin_image">
-      
+      <div id="headings">
         <h1 id="the_halloween_store"> The Halloween Store </h1>
         <h2 id="little_goblin"> For the Little Goblin in all of us! </h2>
-   
-      <nav>
+        </div>
+      <nav id="horiz-nav">
         <ul class="horiz">
             <li class="horiz"><a href="index.html" class="current">Home</a></li>
             <li class="horiz"><a href="product_list.html">Product List</a></li>
@@ -25,9 +26,12 @@ Copyright (c) 2015 Michael Winkler
             <li class="horiz"><a href="join_email.html">Join Email</a></li>
         </ul>
       </nav>
+        <nav id="hamburger-nav">
+          Menu &#9776; &nbsp; &nbsp; 
+        </nav>
     </header>
     <main>
-      <aside>
+      <aside id="sidebar-aside">
         <ul>
           <li class="sidebar"><a href="slides/products/props_page.html" title="props">Props</a></li>
           <li class="sidebar"><a href="slides/products/costumes_page.html" title="costumes">Costumes</a></li>
@@ -49,6 +53,14 @@ Copyright (c) 2015 Michael Winkler
           <h4> My guarantee </h4>
           <p> If you aren't completely satisfied with everything you buy from my site, you can return it for a full refund. <b>No questions asked! </b></p>
         </div>
+        <aside id="bottom-aside">
+        <ul>
+          <li class="sidebar"><a href="slides/products/props_page.html" title="props">Props</a></li>
+          <li class="sidebar"><a href="slides/products/costumes_page.html" title="costumes">Costumes</a></li>
+          <li class="sidebar"><a href="slides/products/spcial_effects_page.html" title="special effects">Special FX</a></li>
+          <li class="sidebar"><a href="slides/products/masks_page.html" title="masks">Masks</a></li>
+        </ul>
+      </aside>
       </section>
     </main>
     <footer> &copy; 2016 Michael Winkler </footer>

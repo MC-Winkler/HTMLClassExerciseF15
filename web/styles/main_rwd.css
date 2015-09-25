@@ -15,7 +15,6 @@ body {
   border-color: black;
   margin: 0 auto;
   box-shadow: 0em .7em 1em .5em black;
-    
 }
 
 main {
@@ -56,7 +55,6 @@ li.sidebar a {
 nav {
   width: 100%;  
   background-color: black;
-  margin-bottom: 3em;
 }
 
 ul.horiz {
@@ -84,6 +82,10 @@ li.horiz a:hover{
 
 li.horiz .current {
   color: orange;
+}
+
+headings{
+  display:block;overflow:hidden;
 }
 
 header {
@@ -117,7 +119,6 @@ h3 {
   margin:0;
 }
 
-
 p {
   margin: .5em 0 0;
 }
@@ -125,18 +126,30 @@ p {
 #pumpkin_image {
   float:left;
   margin: 1%;
+  min-width:40px;
+  min-height: 40px;
 }
 
 #the_halloween_store{
   text-indent: 5%;
+  display:block;
 }
 
 #little_goblin{
+  display:block;
   text-indent: 5%;
 }
 
 #cat_image {
   margin-top: .5em;
+}
+
+#sidebar-aside {
+  margin-right: 1em;
+}
+
+#bottom-aside {
+  display:none;
 }
 
 footer {
@@ -153,4 +166,41 @@ footer {
   background: -moz-linear-gradient(bottom right, white, orange, black); 
   background: linear-gradient(to bottom left, white, orange , black); 
   clear:both;
+}
+
+#hamburger-nav {
+  display:none;
+  color:white;
+  text-align: right;
+  font-size: 150%;
+}
+@media screen and (max-width: 800px){
+  html {
+    background-image: none;
+  }
+  
+  body {
+    box-shadow: none;
+    font-size: 90%;
+  }
+}
+
+@media screen and (max-width: 767px){
+  #horiz-nav{
+    display:none;
+  }
+  
+  #hamburger-nav{
+    display:block
+  }
+  
+  #sidebar-aside{
+    display:none;
+  }
+  
+  #bottom-aside{
+    display:block;
+    margin:1em auto 0;
+    width: 12em;
+  }
 }
